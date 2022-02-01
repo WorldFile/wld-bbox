@@ -28,7 +28,7 @@ const bbox = calcWorldFileBoundingBox({ wld, size });
 // ex: Number("7698736.8577886725053") results in 7698736.857788673
 ["7698736.8577886725053", "163239.837978376445", "10066450.2459496622445", "1325082.667912746695"]
 
-// turn of high-precision and just use quicker floating point arithmetic
+// turn off high-precision and just use quicker floating point arithmetic
 const bbox = calcWorldFileBoundingBox({ wld, size, precise: false });
 [7698736.857788673, 163239.83797837654, 10066450.245949663, 1325082.6679127468]
 ```
