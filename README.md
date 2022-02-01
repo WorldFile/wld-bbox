@@ -8,12 +8,12 @@ Calculate a Bounding Box given a World File and Raster Size.
 - doesn't support World Files with a skew (rotation around the x or y axis)
 
 
-# install
+## install
 ```bash
 npm install wld-bbox
 ```
 
-# usage
+## usage
 ```js
 const calcWorldFileBoundingBox = require("wld-bbox");
 
@@ -40,5 +40,5 @@ const bbox = calcWorldFileBoundingBox({ wld, size, precise: false });
 [7698736.857788673, 163239.83797837654, 10066450.245949663, 1325082.6679127468]
 ```
 
-# related
-To read the data from a raw World File into an object, consider using [wld-reader](https://github.com/WorldFile/wld-reader).
+## related
+To read the data from a World File into an object, consider using [wld-reader](https://github.com/WorldFile/wld-reader).
