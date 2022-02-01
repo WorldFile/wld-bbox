@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Calculate a Bounding Box given a World File and Raster Size. Super High Precision.",
   "main": "wld-bbox.js",
+  "files": [
+    "wld-bbox.js"
+  ],
   "scripts": {
     "format": "npx prettier --arrow-parens=avoid --print-width=120 --trailing-comma=none --write *.js",
     "test": "node ./test.js"
