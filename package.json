@@ -1,6 +1,6 @@
 {
   "name": "wld-bbox",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Calculate a Bounding Box given a World File and Raster Size. Super High Precision.",
   "main": "wld-bbox.js",
   "files": [
