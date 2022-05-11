@@ -1,6 +1,6 @@
 {
   "name": "wld-bbox",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Convert between a Bounding Box and World File given a Raster Size. Super High Precision.",
   "main": "index.js",
   "files": [
