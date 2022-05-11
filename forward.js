@@ -4,9 +4,9 @@ const divide = require("preciso/divide.js");
 const subtract = require("preciso/subtract.js");
 const multiply = require("preciso/multiply.js");
 
-module.exports = function calcWorldFileBoundingBox({ wld, size, precise = true }) {
+module.exports = function forward({ wld, size, precise = true }) {
   let { xScale, ySkew, xSkew, yScale, xOrigin, yOrigin } = wld;
-  let { height, width } = size;
+  const { height, width } = size;
 
   if (![null, undefined, "", 0, "0"].includes(xSkew) || ![null, undefined, "", 0, "0"].includes(ySkew)) {
     console.warn("xSkew:", xSkew);
