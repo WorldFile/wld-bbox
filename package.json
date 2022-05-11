@@ -1,10 +1,12 @@
 {
   "name": "wld-bbox",
   "version": "0.0.1",
-  "description": "Calculate a Bounding Box given a World File and Raster Size. Super High Precision.",
-  "main": "wld-bbox.js",
+  "description": "Convert between a Bounding Box and World File given a Raster Size. Super High Precision.",
+  "main": "index.js",
   "files": [
-    "wld-bbox.js"
+    "index.js",
+    "forward.js",
+    "inverse.js"
   ],
   "scripts": {
     "format": "npx prettier --arrow-parens=avoid --print-width=120 --trailing-comma=none --write *.js",
