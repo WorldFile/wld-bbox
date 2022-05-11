@@ -46,7 +46,7 @@ const bbox = convert_world_file_to_bbox({ wld, size, precise: false });
 import convert_bbox_to_world_file from "wld-bbox/inverse";
 // or import { inverse as convert_bbox_to_world_file } from "wld-bbox";
 
-inverse({
+convert_bbox_to_world_file({
   // a precise bounding box where numbers are represented by strings
   bbox: ["7698736.8577886725053", "163239.837978376445", "10066450.2459496622445", "1325082.667912746695"],
   precise: true,
